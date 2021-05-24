@@ -1,7 +1,9 @@
 #!/bin/bash
 
-read -p 'File name for keymaps(no ectension): ' file
-qmk json2c $file.json > ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x7/keymaps/undg/keymap.c
+qmk json2c b.json > ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x7/keymaps/undg/keymap.c
+
+# read -p 'File name for keymaps(no ectension): ' file
+# qmk json2c $file.json > ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x7/keymaps/undg/keymap.c
 
 read -p 'flashing right side.'
 qmk flash -bl avrdude-split-right
