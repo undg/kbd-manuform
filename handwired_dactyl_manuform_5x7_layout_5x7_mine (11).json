@@ -39,7 +39,7 @@
       "KC_DEL",
       "KC_F5",
       "KC_LGUI",
-      "KC_LCTL",
+      "LCTL_T(KC_ESC)",
       "LT(1,KC_BSPC)",
       "KC_BSPC",
       "LALT_T(KC_BSPC)",
