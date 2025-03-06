@@ -1,0 +1,10 @@
+*~
+\#*\#
+
+.repl-*
+.nrepl-*
+
+.lein-*
+/target
+*.ai
+*.svg
