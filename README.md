@@ -1,8 +1,4 @@
-You have nothing to looking for here, unless you want to print your own keyboard.
-
-No README provided, use on your own risk.
-
-
+# Instruction notes
 
 ## 1. Layout editor
 https://config.qmk.fm/#/handwired/dactyl_manuform/5x7/LAYOUT_5x7
@@ -106,4 +102,10 @@ sudo pacman -Suy qmk --no-confirm
 Use `flash.sh`, `./flash-left.sh` or `./flash-right.sh` scripts to flash the qmk_firmware. For old keyboards you need to flash only left shell.
 
 This will move files between repositories (this one and `~/qmk_firmware`), and wait for you to enter the bootloader mode. To enter bootloader mode, press reset button, or short with tweezers `gnd` and `reset` pin.
+
+
+## 4. Troubleshooting
+
+You can reflash only left side, however if firmware on both shells are compiled from different version of `qmk/qmk_firmware` you may want to flash both sides.
+
 
